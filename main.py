@@ -9,6 +9,7 @@ commands_dict = {"buy": buy,
                  "save": save,
                  "sell": sell
                  }
+
 def user_input():
     while True:
         user_input = input("Input: ")
