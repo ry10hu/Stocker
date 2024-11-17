@@ -2,14 +2,14 @@
       "assets": {
             "asset1": {
                   "owned": 0,
-                  "price": 1
+                  "price": 1000
             },
             "asset2": {
                   "owned": 0,
-                  "price": 2
+                  "price": 2000
             }
       },
       "other": {
-            "money": 100
+            "money": 10000
       }
 }
