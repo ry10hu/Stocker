@@ -3,6 +3,7 @@
 
 import json
 import os
+global save_r
 
 # Load save file (read only)
 with open('saves/1.json', "r") as file:
@@ -62,4 +63,10 @@ def inventory():
 
 def save(filename):
     """Saves the file to saves/{input}.json"""
+    file = open(f"saves/{filename}.json", "w")
     json.dump(save_r, file, indent = 6)
+
+# def load():
+#     """Loads the file from saves/{input}.json"""
+#     # print(f"loading {filename}.json...")
+#     save_r = json.load(open(f"saves/2.json", "r"))

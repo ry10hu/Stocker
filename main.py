@@ -4,10 +4,11 @@ import json
 from commands import *
 
 commands_dict = {"buy": buy,
+                 "sell": sell,
                  "clear": clear,
                  "inventory": inventory,
                  "save": save,
-                 "sell": sell
+                 "load": load
                  }
 
 def user_input():
