@@ -1,10 +1,12 @@
+#!/usr/bin/env python
+
+
 import json
 import os
 
 # Load save file (read only)
 with open('saves/1.json', "r") as file:
     save_r = json.load(file)
-
 
 def buy(asset, amount):
     """Buy function to handle buying assets"""
@@ -60,6 +62,4 @@ def inventory():
 
 def save(filename):
     """Saves the file to saves/{input}.json"""
-    print(f"Filename: '{filename}'")
-    file = open(f'saves/{filename}.json', "w")
     json.dump(save_r, file, indent = 6)
