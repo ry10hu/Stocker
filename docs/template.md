@@ -3,4 +3,4 @@
 description
 
 Breakdown: <br>
- - breakdown of functions and important variables etc
+ - breakdown of functions, classes and important variables etc
