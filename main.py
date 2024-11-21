@@ -3,13 +3,17 @@
 import json
 from commands import *
 
-commands_dict = {"buy": buy,
-                 "sell": sell,
-                 "clear": clear,
-                 "inventory": inventory,
-                 "save": save,
-                 "load": load
-                 }
+commands_dict = {
+                # Transactions class - handles asset transactions
+                "buy":transactions.buy,
+                "sell": transactions.sell,
+                # Miscellaneous class - no specific group
+                "clear": miscellaneous.clear,
+                "inventory": miscellaneous.inventory,
+                # Files class - Handles all savefile interaction
+                "save": files.save,
+                "load": files.load,
+                }
 
 def user_input():
     while True:
