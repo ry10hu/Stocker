@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
-import json
-from commands import *
+from main.commands import *
 
 commands_dict = {
                 # Transactions class - handles asset transactions
