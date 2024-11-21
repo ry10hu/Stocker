@@ -12,5 +12,5 @@ def loop():
         
         change = int(price * random.uniform(-0.01, 0.01))
         commands.files.save_r["assets"][stock]["price"] += change
-
+    
         time.sleep(60)
