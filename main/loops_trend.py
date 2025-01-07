@@ -1,7 +1,7 @@
-#!/usr/bin/env python
-# This file is a wip implementation of trends
-# I'll finish it once I get GUI and a graph of prices working
-
+#!/usr/bin/env python                                       
+# This file is a wip implementation of trends                 #
+# I'll finish it once I get GUI and a graph of prices working # 
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 import time, random, main.commands as commands
 
 def loop():
@@ -45,4 +45,3 @@ def trend(first, chance):
             return True
         else:
             return False
-        
