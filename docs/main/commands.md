@@ -9,7 +9,7 @@ Breakdown: <br>
  - `miscellaneous` (class) :
     - `clear` : Function to clear the screen.
     - `inventory` : Function to print all of `save_r` (savefile).
- - files (class) :
+ - `files` (class) :
     - `save` : Function to write save to main/saves/filename.json.
     - `load` : Function to load saves from main/saves/filename.json (saves/filename.json relative to [commands.py](../../commands.py)).
 
