@@ -1,4 +1,4 @@
-[commands.py](../../commands.py)
+[commands.py](../../main/commands.py)
 -
 Defines all of the functions that you use when playing
 

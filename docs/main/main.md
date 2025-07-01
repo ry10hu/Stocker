@@ -1,4 +1,4 @@
-[main.py](../../main.py)
+[main.py](../../main/main.py)
 -
 Handles user input and calling functions from [commands.py](commands.md)
 
