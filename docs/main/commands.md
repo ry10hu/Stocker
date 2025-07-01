@@ -12,6 +12,3 @@ Breakdown: <br>
  - `files` (class) :
     - `save` : Function to write save to main/saves/filename.json.
     - `load` : Function to load saves from main/saves/filename.json (saves/filename.json relative to [commands.py](../../commands.py)).
-
-
-    Saves the file to main/saves/{input}.json (saves/{input}.json relative to [commands.py](../../commands.py)
