@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import time, random, main.commands as commands
+import time, random, logic.commands as commands
 
 def loop():
         

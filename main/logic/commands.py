@@ -60,22 +60,22 @@ class miscellaneous:
 
 class files:
     # Load save file (read only)
-    with open('saves/1.json', "r") as file:
+    with open('../saves/1.json', "r") as file:
         save_r = json.load(file)
     def save(filename):
-        """Saves the file to main/saves/{input}.json (saves/{input}.json relative to this file)"""
+        """Saves the file to ../saves/{input}.json (saves/{input}.json relative to this file)"""
         confirm = input(f"Save current progress in file {filename} (y/N)? ").lower()
         if confirm == "y":    
-            file = open(f"saves/{filename}.json", "w")
+            file = open(f"../saves/{filename}.json", "w")
             json.dump(files.save_r, file, indent = 6)
 
     def load(filename):
-        """Loads the file from main/saves/{input}.json"""
+        """Loads the file from ../saves/{input}.json"""
         confirm = input(f"Load progress from file {filename} (y/N)? ").lower()
         if confirm == "y":
-            files.save_r = json.load(open(f"saves/{filename}.json", "r"))
+            files.save_r = json.load(open(f"../saves/{filename}.json", "r"))
 
     def delete(filename):
         confirm = input(f"Delete progress in file {filename} (y/N)? ").lower()
         if confirm == "y":
-            os.remove("saves/{filename}.json")
+            os.remove("../saves/{filename}.json")

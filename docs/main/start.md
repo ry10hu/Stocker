@@ -1,3 +1,3 @@
-[start.py](../../main/start.py)
+[start.py](../../../main/start.py)
 -
-Threads [main.py](main.md) and [loops.py](loops.md)
+Threads[logic/loops.py](logic/loops.md) and starts [gui/main.py](gui/main.py)

@@ -1,17 +1,38 @@
+Stocker
 ├── LICENSE
 ├── README.md
-├── commands.py
 ├── docs
 │   ├── README.md
-│   ├── template.md
-│   └── main
-│       ├── commands.md
-│       ├── loops.md
-│       ├── main.md
-│       └── start.md
-├── saves
-│   └── 1.json
+│   ├── main
+│   │   ├── gui
+│   │   │   ├── AssetTab.md
+│   │   │   ├── MainMenuTab.md
+│   │   │   ├── main.md
+│   │   │   └── shortcuts.md
+│   │   ├── logic
+│   │   │   ├── commands.md
+│   │   │   ├── loops.md
+│   │   │   └── loops_trend.md
+│   │   ├── start.md
+│   │   └── tcl
+│   │       ├── assettab.md
+│   │       └── mainmenutab.md
+│   └── template.md
+├── main
+│   ├── gui
+│   │   ├── AssetTab.py
+│   │   ├── MainMenuTab.py
+│   │   ├── main.py
+│   │   └── shortcuts.py
+│   ├── logic
+│   │   ├── commands.py
+│   │   ├── loops.py
+│   │   └── loops_trend.py
+│   ├── saves
+│   │   └── 1.json
+│   ├── start.py
+│   └── tcl
+│       ├── assettab.tcl
+│       └── mainmenutab.tcl
 ├── requirements.txt
-├── loops.py
-├── main.py
-└── start.py
+└── start.sh
