@@ -10,5 +10,6 @@ Breakdown: <br>
     - `clear` : Function to clear the screen.
     - `inventory` : Function to print all of `save_r` (savefile).
  - `files` (class) :
-    - `save` : Function to write save to main/saves/filename.json.
-    - `load` : Function to load saves from main/saves/filename.json.
+    - `save` : Function to write savefile to config.SAVE_DIR/filename.json.
+    - `load` : Function to load savefile from config.SAVE_DIR/filename.json.
+    - `delete` : Function to delete savefile from config.SAVE_DIR/filename.json
