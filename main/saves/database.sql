@@ -41,4 +41,4 @@ INSERT INTO stocks (stock_name, stock_desc, price) VALUES ('AAPL', 'Apple Inc.',
 
 INSERT INTO players (player_name, cash) VALUES ('ry10hu', 1000.0);
 
-INSERT INTO inventory (player_id, stock_id, amount) VALUES ((SELECT player_id FROM players WHERE player_name = 'ry10hu'), (SELECT stock_id FROM stocks WHERE stock_name = 'AAPL'), );
+INSERT INTO inventory (player_id, stock_id, amount) VALUES ((SELECT player_id FROM players WHERE player_name = 'ry10hu'), (SELECT stock_id FROM stocks WHERE stock_name = 'AAPL'), 100);

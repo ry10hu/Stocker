@@ -56,13 +56,9 @@ class StockerDB:
 db = StockerDB()
 
 
-# db.add_player(f"lulu", 1000.0)
-    
-# for x in range(0, 5):
-db.add_stock(f"ILY", f"I love you", 10.0)
 
-for x in range(0, 5):
-    db.add_to_inventory(f"ry10hu{x}", f"stock{x}", 20)
+db.add_to_inventory(f"ry10hu", f"AAPL", 50)
+
 
 db.commit()
 db.close()
